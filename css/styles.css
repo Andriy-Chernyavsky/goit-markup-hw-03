@@ -24,8 +24,19 @@ ol {
   padding-right: 15px;
   margin: 0 auto;
 }
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -36,6 +47,7 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-part {
@@ -47,12 +59,21 @@ ol {
   text-transform: uppercase;
   color: #2e2f42;
 }
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
 .menu-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: block;
 }
 
 .menu-item:hover {
@@ -64,7 +85,13 @@ ol {
 
 .contacts {
   font-style: normal;
+  margin-left: auto;
 }
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+
 .contacts-link {
   font-size: 16px;
   line-height: 1.5;
