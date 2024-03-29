@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -10,6 +17,17 @@ ul,
 ol {
   list-style-type: none;
 }
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.header-container {
+  display: flex;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -60,6 +78,8 @@ ol {
 .hero {
   background-color: #2e2f42;
   text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
   font-family: "Roboto", sans-serif;
@@ -69,6 +89,9 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
@@ -79,6 +102,12 @@ ol {
   color: #fff;
   cursor: pointer;
   background-color: #4d5ae5;
+  min-width: 169px;
+  border-radius: 4%;
+  display: block;
+  height: 56px;
+  border: none;
+  margin: 0 auto;
 }
 
 .hero-button:focus,
@@ -156,6 +185,8 @@ ol {
 
 .foot {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .foot-logo-part {
   font-family: "Raleway", sans-serif;
@@ -165,6 +196,8 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .foot-text {
@@ -172,4 +205,5 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
