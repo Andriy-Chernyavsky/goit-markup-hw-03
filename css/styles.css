@@ -142,6 +142,11 @@ ol {
   background: #404bbf;
 }
 
+.feature-list {
+  display: flex;
+  gap: 24px;
+}
+
 .feature {
   font-weight: 500;
   font-size: 20px;
@@ -173,7 +178,9 @@ ol {
   text-align: center;
   text-transform: capitalize;
 }
-
+.team-list {
+  display: flex;
+}
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -190,6 +197,13 @@ ol {
   text-align: center;
   color: #434455;
   background-color: #fff;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .port-name {
